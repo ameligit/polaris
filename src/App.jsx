@@ -1,6 +1,5 @@
 import { AppProvider, Card, Page, BlockStack, Text } from '@shopify/polaris';
-import '@shopify/polaris/build/esm/styles.css';
-
+import '@shopify/polaris/build/esm/styles.css';  // Correct path
 
 function App() {
   return (
