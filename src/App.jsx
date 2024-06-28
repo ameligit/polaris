@@ -1,6 +1,7 @@
 import { AppProvider, Card, Page, BlockStack, Text } from '@shopify/polaris';
 import '@shopify/polaris/build/esm/styles.css';
 
+
 function App() {
   return (
     <AppProvider>
