@@ -1,5 +1,5 @@
 :root {
-  font-family: iransansxv, Liana;
+  font-family: 'iransansxv', Liana;
   line-height: 1.5;
   font-weight: 400;
 
@@ -13,7 +13,6 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-
 @font-face {
   font-family: 'iransansxv';
   src: url('/fonts/IRANSansXV.woff2') format('woff2'),
@@ -24,26 +23,11 @@
 }
 
 @font-face {
-  font-family: 'iransansx';
-  src: url('/fonts/IRANSansX-Regular.woff') format('woff');
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: 'iransansx';
-  src: url('/fonts/IRANSansX-Bold.woff') format('woff');
-  font-weight: 700;
-}
-
-@font-face {
   font-family: 'Liana';
   src: url('/fonts/Liana-soft-VF.woff2') format('woff2');
   font-weight: 100 1000;
   font-display: swap;
 }
-
-
-
 
 
 a {
@@ -56,7 +40,8 @@ a:hover {
 }
 
 body {
-  font-family: iransansxv;
+  font-family: 'iransansxv', 'Liana';
+  font-variation-settings: "wght" 500, "DOTS" 3;
   margin: 0;
   display: flex;
   place-items: center;
