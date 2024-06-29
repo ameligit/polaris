@@ -41,7 +41,7 @@ a:hover {
 
 body {
   font-family: 'iransansxv', 'Liana';
-  font-variation-settings: "wght" 500, "DOTS" 3;
+  font-variation-settings: "wght" 400, "DOTS" 7;
   margin: 0;
   display: flex;
   place-items: center;

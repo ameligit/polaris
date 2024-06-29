@@ -8,7 +8,7 @@ function App() {
         <Card sectioned>
           <BlockStack>
             <Text as="p">
-              جهت تست این که چه فونتی داره کار میکنه.
+               به  ۳۰۰ هزار تومان جهت تست این که چه فونتی داره کار میکنه.
             </Text>
           </BlockStack>
         </Card>
