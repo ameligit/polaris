@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { AppProvider, Page, Card, Text } from '@shopify/polaris';
 import '../node_modules/@shopify/polaris/build/esm/styles.css';
+import './index.css'
 
 function SecondaryApp() {
   return (
